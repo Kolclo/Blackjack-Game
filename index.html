@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>Blackjack</h1>
+
+    <div id="rules">
+        <br>
+        <p class="heading">RULES:</p>
+        <p>The aim of the game is to get exactly 21 points. If you exceed 21 points, you lose.</p>
+        <p>Each game costs £10 to play, but you get £30 back if you win!</p>
+        <p>Jack, Queen and King are equal to 10.</p>
+        <p>Aces are equal to 11.</p>
+        <br>
+    </div>
+
+    <div id="name" class="">
+        <input type="text" placeholder="Enter your name..." id="input">
+        <button value="submit" onclick="setName()">START GAME</button>
+    </div>
+
+
+    <div id="game" class="hidden">
+        <p id="message-el">Want to play a round?</p>
+        <p id="cards-el">Cards:</p>
+        <p id="sum-el">Sum:</p>
+        <button onclick="startGame()">START GAME</button>
+        <button onclick="newCard()">NEW CARD</button>
+        <p id="player-el"></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
