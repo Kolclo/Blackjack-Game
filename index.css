@@ -5,6 +5,7 @@ body {
     font-weight: bold;
     color: white;
     text-align: center;
+    font-size: 2rem;
 }
 
 h1 {
@@ -13,7 +14,7 @@ h1 {
 
 .heading {
     text-decoration: underline;
-    font-size: 1.2rem;
+    font-size: 2.4rem;
 }
 
 #message-el {
@@ -22,7 +23,7 @@ h1 {
 
 button {
     color: #016f32;
-    width: 150px;
+    width: auto;
     background: goldenrod;
     padding-top: 5px;
     padding-bottom: 5px;
