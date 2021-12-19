@@ -38,6 +38,22 @@ button:hover {
     background: rgb(192, 147, 33);
 }
 
+.startBtn {
+    background: #00eaff;
+}
+
+.startBtn:hover {
+    background: #00b5c5;
+}
+
+.checkBtn {
+    background: #26ff00;
+}
+
+.checkBtn:hover {
+    background: #1fcf00;
+}
+
 .hidden {
     display: none;
 }
