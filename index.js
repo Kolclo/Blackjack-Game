@@ -16,6 +16,13 @@ let playerEl = document.getElementById("player-el")
 let nameEl = document.getElementById("name")
 let rulesEl = document.getElementById("rules")
 let gameEl = document.getElementById("game")
+let input = document.getElementById("input")
+
+input.addEventListener("keyup", function (e) {
+    if (e.key === "Enter") {
+        setName()
+    }
+})
 
 function getRandomCard() {
     let randomNumber = Math.floor(Math.random() * 13) + 1
